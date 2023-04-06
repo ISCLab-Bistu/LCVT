@@ -66,7 +66,7 @@ LCVT can repalce the backone part of other model for outfall detection in the UA
 
 
 
-The [configuration file](config/yolov5s.yaml) for YOLOv5 is provided here as an example.
+The LCVT backbone network code is provided in 'LCVT\mmdet\models\backbones\lcvt.py', the config file is provided in 'LCVT\configs\lcvt\Ours_lcvt.py' and the test tools code is provided in 'LCVT\tools\analysis_tools\get_flops.py' as examples.
 
 
 
