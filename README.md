@@ -15,7 +15,7 @@ This repository contains the official implementation of **Lightweight Convolutio
 
 <p align = "center">
 
-Adaptive Spatial Correlation Pyramid Attention (ASCPA). 
+Lightweight Convolutional Vision Transformer (LCVT). 
 
 </p>
 
