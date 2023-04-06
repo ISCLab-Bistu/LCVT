@@ -8,27 +8,25 @@ Lightweight Convolutional Vision Transformer Network for Detecting Outfalls into
 This repository contains the official implementation of **Lightweight Convolutional Vision Transformer Network for Detecting Outfalls into Rives and Oceans in Aerial Images**. The purpose of our work is to propose a lightweight model that is specifically designed for detecting outfalls in UAV aerial images, which can be easily deployed on software for detecting outfalls. This model efficiently assists experts in quickly identifying and locating areas of outfalls in UAV aerial images. This work was completed by Intelligent Sensing and Computing Laboratory affiliated to Beijing Information Science and Technology University. It has been submitted to the Journal of Neurocomputing published by Elsevier.
 
 <p align="center">
-9
-  <img src="https://github.com/ISCLab-Bistu/LCVT/blob/main/image/vis2.jpg" />
-10
+    <img src="https://github.com/ISCLab-Bistu/LCVT/blob/main/image/vis2.jpg" />
 </p>
-11
-​
-12
+
+
+
 <p align = "center">
-13
+
 Adaptive Spatial Correlation Pyramid Attention (ASCPA). 
-14
+
 </p>
-15
-​
-16
+
+
+
 The structure of the ASCPA network is shown in above picture. This network is mainly composed of SPE (Spatial Pyramid Extractor) and SCFM (Spatial Correlation Fusion Module). The purpose of the SPE is to extract multi-scale spatial information on the feature map. The SCFM is used to perform spatial correlation feature recalibration to selectively emphasized informative features. 
-17
-​
-18
-​
-19
+
+
+
+
+
 
 
 ## Result
@@ -37,15 +35,11 @@ The structure of the ASCPA network is shown in above picture. This network is ma
 
 
 <p align="center">
-22
     <img src="https://github.com/ISCLab-Bistu/LCVT/blob/main/image/vis1.jpg" />
-23
 </p>
 
-​
-25
 <p align = "center">
-26
+
 Visualization results are shown in above picture using Gradcam tool. Obviously, the heat map of YOLOv5-ASCPA is completely able to cover the core area of the outfall which reflects higher response intensity with dark red. The error-prone region has a very weak response intensity for the YOLOv5-ASCPA model compared with the other three models.
 27
 </p>
