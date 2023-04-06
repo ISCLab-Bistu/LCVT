@@ -40,26 +40,26 @@ The structure of the ASCPA network is shown in above picture. This network is ma
 
 <p align = "center">
 
-Visualization results are shown in above picture using Gradcam tool. Obviously, the heat map of YOLOv5-ASCPA is completely able to cover the core area of the outfall which reflects higher response intensity with dark red. The error-prone region has a very weak response intensity for the YOLOv5-ASCPA model compared with the other three models.
-27
+Visualization results are shown in above picture using Gradcam tool. Obviously, the heat map of Our proposed model is completely able to cover the core area of the outfall which reflects higher response intensity with dark red. The error-prone region has a very weak response intensity for our proposed model compared with the other models.
+
 </p>
-28
-​
-29
+
+
+
 ## Usage
-30
-​
-31
+
+
+
 ASCPA can be inserted into [YOLOv3](https://github.com/ultralytics/yolov3), [YOLOv4](https://github.com/Tianxiaomo/pytorch-YOLOv4) and [YOLOv5](https://github.com/ultralytics/yolov5/) as a standalone module.
-32
-​
-33
+
+
+
 The [configuration file](config/yolov5s.yaml) for YOLOv5 is provided here as an example.
-34
-​
-35
+
+
+
 ## Summary & Prospect
-36
-​
-37
+
+
+
 Our team proposed ASCPA in order to promote the capability of YOLO series network for small object detection. ASCPA was tested on our outfall dataset and proved its excellent capability. Despite that ASCPA has not been tested in other datasets, we still hope that it will demonstrate his power in more datasets.
