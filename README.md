@@ -31,7 +31,7 @@ The structure of the ASCPA network is shown in above picture. This network is ma
 
 ## Result
 
-# Visulization 1
+### Visulization 1
 
 
 <p align="center">
@@ -45,7 +45,7 @@ Visualization results are shown in above picture using Gradcam tool. Obviously, 
 </p>
 
 
-# Visulization 2
+### Visulization 2
 
 
 <p align="center">
@@ -58,11 +58,11 @@ Obviously, the heat map of the model with LCVT is completely able to cover the c
 
 </p>
 
+
 ## Usage
 
 
-
-ASCPA can be inserted into [YOLOv3](https://github.com/ultralytics/yolov3), [YOLOv4](https://github.com/Tianxiaomo/pytorch-YOLOv4) and [YOLOv5](https://github.com/ultralytics/yolov5/) as a standalone module.
+LCVT can repalce the backone part of other model for outfall detection in the UAV images.
 
 
 
@@ -74,4 +74,4 @@ The [configuration file](config/yolov5s.yaml) for YOLOv5 is provided here as an 
 
 
 
-Our team proposed ASCPA in order to promote the capability of YOLO series network for small object detection. ASCPA was tested on our outfall dataset and proved its excellent capability. Despite that ASCPA has not been tested in other datasets, we still hope that it will demonstrate his power in more datasets.
+Our team proposed LCVT in order to promote the capability of model for small object detection. Our proposed model and LCVT were tested on our outfall dataset and proved its excellent capability. Despite that our proposed model and LCVT have not been tested in other datasets, we still hope that it will demonstrate his power in more datasets.
