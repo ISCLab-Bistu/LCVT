@@ -31,7 +31,7 @@ The structure of the ASCPA network is shown in above picture. This network is ma
 
 ## Result
 
-
+# Visulization 1
 
 
 <p align="center">
@@ -45,6 +45,18 @@ Visualization results are shown in above picture using Gradcam tool. Obviously, 
 </p>
 
 
+# Visulization 2
+
+
+<p align="center">
+    <img src="https://github.com/ISCLab-Bistu/LCVT/blob/main/image/vis2.jpg" />
+</p>
+
+<p align = "center">
+
+Obviously, the heat map of the model with LCVT is completely able to cover the core area of the outfall which reflects higher response intensity with dark red. The error-prone region has a very weak response intensity for the model with compared with the other models.
+
+</p>
 
 ## Usage
 
