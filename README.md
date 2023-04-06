@@ -9,7 +9,7 @@ This repository contains the official implementation of **Lightweight Convolutio
 
 <p align="center">
 9
-  <img src="https://github.com/ISCLab-Bistu/ASCPA-Attention/blob/main/Image/ASCPA.jpg" />
+  <img src="https://github.com/ISCLab-Bistu/LCVT/blob/main/image/vis2.jpg" />
 10
 </p>
 11
