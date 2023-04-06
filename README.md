@@ -37,9 +37,9 @@ The structure of the ASCPA network is shown in above picture. This network is ma
 
 
 <p align="center">
-
+22
     <img src="https://github.com/ISCLab-Bistu/LCVT/blob/main/image/vis1.jpg" />
-
+23
 </p>
 
 ​
