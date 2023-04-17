@@ -8,7 +8,7 @@ Lightweight Convolutional Vision Transformer Network for Detecting Outfalls into
 This repository contains the official implementation of **Lightweight Convolutional Vision Transformer Network for Detecting Outfalls into Rives and Oceans in Aerial Images**. The purpose of our work is to propose a lightweight model that is specifically designed for detecting outfalls in UAV aerial images, which can be easily deployed on software for detecting outfalls. This model efficiently assists experts in quickly identifying and locating areas of outfalls in UAV aerial images. This work was completed by Intelligent Sensing and Computing Laboratory affiliated to Beijing Information Science and Technology University. It has been submitted to the Journal of NEURAL COMPUTING & APPLICATIONS published by Springer.
 
 <p align="center">
-    <img src="https://github.com/ISCLab-Bistu/LCVT/blob/main/image/vis2.jpg" />
+    <img src="https://github.com/ISCLab-Bistu/LCVT/blob/main/image/Backbone.png" />
 </p>
 
 
@@ -21,7 +21,7 @@ Lightweight Convolutional Vision Transformer (LCVT).
 
 
 
-The structure of the ASCPA network is shown in above picture. This network is mainly composed of SPE (Spatial Pyramid Extractor) and SCFM (Spatial Correlation Fusion Module). The purpose of the SPE is to extract multi-scale spatial information on the feature map. The SCFM is used to perform spatial correlation feature recalibration to selectively emphasized informative features. 
+The structure of the LCVT network is shown in above picture. This network is mainly composed of SDSA (Separated Down-sampled Self-Attention) and CFNS (Convolutional Feed-Forward Network with Shortcut). The purpose of the SDSA is to extract multi-scale and different granularity information in the feature map. The CFNS is used to  enhances the model's ability to detect small outfalls. 
 
 
 
