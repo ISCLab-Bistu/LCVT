@@ -21,7 +21,7 @@ Lightweight Convolutional Vision Transformer (LCVT).
 
 
 
-The structure of the LCVT network is shown in above picture. This network is mainly composed of SDSA (Separated Down-sampled Self-Attention) and CFNS (Convolutional Feed-Forward Network with Shortcut). The purpose of the SDSA is to extract multi-scale and different granularity information in the feature map. The CFNS is used to  enhances the model's ability to detect small outfalls. 
+The structure of the LCVT network is shown in above picture. This network is mainly composed of Transformer Blocks, which consists of SDSA (Separated Down-sampled Self-Attention) and CFNS (Convolutional Feed-Forward Network with Shortcut). The purpose of the SDSA is to extract multi-scale and different granularity information in the feature map. The CFNS is used to  enhances the model's ability to detect small outfalls. 
 
 
 
